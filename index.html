@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>37 Signals</title>
+        <link type="text/css" rel="stylesheet" href="main.css" />
+        <link href='http://fonts.googleapis.com/css?family=Crimson+Text' rel='stylesheet' type='text/css'>
+    </head>
+    <body>
+        <div id="header">
+            <ul>
+                <li id="date">
+                    <script>
+                        var d = new Date();
+                        var weekday=new Array(7);
+                        weekday[0]="Sunday";
+                        weekday[1]="Monday";                    
+                        weekday[2]="Tuesday";
+                        weekday[3]="Wednesday";
+                        weekday[4]="Thursday";
+                        weekday[5]="Friday";
+                        weekday[6]="Saturday";
+                        var day = weekday[d.getDay()];
+                        document.write("<p>Happy "+day+".</p>");
+                    </script>
+                </li>
+                <li>Company blog</li>
+                <li>Our Story</li>
+                <li>Follow us on Twitter</li>
+                <li>System status</li>
+                <li id="signin">Sign in</li>
+            </ul>
+        </div>
+        <div id="logo"> <img src="images/37signals.png" alt="logo" align="middle"/> </div>
+        <div id="banner">
+            <h1>Making collaboration productive and<br> enjoyable for people every day.</h1>
+            <h4>Frustration-free web-based apps for collaboration, sharing information, and making decisions.</h4>
+            
+        </div>
+        <div id="products">
+            <a>
+                <img src="images/basecamp.png" alt="mountain" />
+                <h3>Basecamp</h3>
+                <p id="red">Manage Projects</p>
+                <p>Used by millions for project management.</p>
+                <div class="arrow"> <img src="images/arrow-left.png"/></div>
+            </a>
+            <a>
+                <img src="images/highrise.png" alt="highrise" />
+                <h3>Highrise</h3>
+                <p id="red">Manage Contacts</p>
+                <p>Know the people you do business with.</p>
+                <div class="arrow"> <img src="images/arrow-left.png"/></div>
+            </a>
+            <a>
+                <img src="images/campfire.png" alt="campfire" />
+                <h3>Campfire</h3>
+                <p id="red">Work in Real-Time</p>
+                <p>Group chat rooms for your business.</p>
+                <div class="arrow" id="arrow-left"> <img src="images/arrow-right.png"/></div>
+            </a>
+        </div>
+        <div id="dots">
+            <img src="images/threedots.png" />
+        </div>
+        <div id="section2">
+            <div id="family">
+                 <div></div>
+                <p>Meet some customers</p>
+                <img src="images/arrow-customer.png" />
+            </div>
+            <h2>Millions of entrepreneurs, freelancers, small<br>businesses, and departments inside big<br>organizations rely on our web apps.</h2>
+            <p>Our loyal customers include designers, developers, freelancers, lawyers, accountants, architects, non-profits, charities, universities, PR firms, retailers, manufacturers, consultants, authors, publishers, government agencies, students, marketers, airlines, restaurants, filmmakers, farmers, and just about everyone in-between. </p>
+            <p>The world&#39;s most popular brands depend on our products every day. We&#39;ll never take their trust &#8211; or your trust &#8211; for granted.</p>
+            <img src="images/world.png" alt="world"/>
+        </div>
+        <div id="sponsors">
+            <img src="images/logos.png" alt="Logos" />
+        </div>
+        <div id="dots">
+            <img src="images/threedots.png" />
+        </div>
+    </body>
+</html>
