@@ -19,7 +19,7 @@ ul li{
     margin: 10px 10px;
     font-size: 12px;
     font-weight: 400;
-    color: rgb(86,101,152)
+    color: rgb(86,101,152);
 }
 
 ul li:hover{
@@ -68,6 +68,7 @@ h4{
     font-size: 20px;
     font-weight: 600;
     letter-spacing: -1px;
+    white-space:nowrap;
 }
 
 #products{
@@ -95,7 +96,7 @@ h4{
 #products p{
     font-size: 14px;
     margin-top 2px;
-    white-space:wrap;
+    white-space:normal;
 }
 
 #red{
@@ -159,6 +160,9 @@ div a:hover{
     font-weight: 400;
     margin-top:0px;
 }
+#section2 img{
+    cursor:pointer;
+}
 
 #sponsors{
     margin-top: 20px;
@@ -167,13 +171,14 @@ div a:hover{
 }
 
 #family p{
-    font-size: 10px;
+    color: rgb(86,101,152);
+    font-size: 11px;
     width:auto;
-    margin: 0 auto;
+    margin: 2px auto;
     text-align: center;
     font-family:arial;
-    
-    
+    width:140px;
+    cursor:pointer;
 }
 
 #family{
@@ -184,10 +189,19 @@ div a:hover{
     height:120px;
     
 } 
+#family p:hover{
+    text-decoration:underline;
+    color:rgb(102,155,207);
+}
 
 #family div{
     width: 140px;
     height: 100px;
     background-image:url("images/family.png");
+    cursor:pointer;
+}
+#family img{
+    position: absolute;
+    margin: -40px 0px 0 -20px; 
 }
     
